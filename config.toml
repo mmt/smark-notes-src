@@ -1,0 +1,31 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "sMark Notes"
+theme = "hugo-ink"
+paginate = 10
+copyright = "© Copyright Mark M. Tobenkin"
+
+[params]
+    subtitle = "Mark M. Tobenkin's Notes on Mathematics and Other Topics"
+    mainSections = ["posts"]
+    featherIconsCDN = true
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
